@@ -1,0 +1,48 @@
+<!--
+DEM PUMPKINS: Emily Ortiz, Diana Akhmedova, May Qiu
+SoftDev
+P00 -- Move Slowly and Fix Things
+2022-11-15
+time spent: 25 hours
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+        <title>Create Entry</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+    </head>
+
+    <body>
+        
+        <!-- button to go back to blog -->
+        <a href="/user_blog" name="userblog" value="userblog"><button>Return to Blog</button></a>
+        <!-- button to log out -->
+        <a href="/logout" name="logout" value="Logout"><button>Logout</button></a>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <h1><u>Create Infinite Intricate Blog Entries</u><h1>
+
+        <h2>Instructions:</h2>
+        <p>Enter the title and paragraph of your entry.</p>
+
+        <!-- return to userblog after form submission -->
+        <form action="/create_entry" method="post">
+            <input type="text" name="title" placeholder="Enter a title...">
+            <input type="text" name="paragraph" placeholder="Enter your entry...">
+            <input type="submit" name="sub2" value="Submit" class="sub">
+        </form>
+
+    </body>
+
+</html>

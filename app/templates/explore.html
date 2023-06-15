@@ -1,0 +1,41 @@
+
+    <!--
+        DEM PUMPKINS: Emily Ortiz, Diana Akhmedova, May Qiu
+        SoftDev
+        P00 -- Move Slowly and Fix Things
+        2022-11-15
+        time spent: 25 hours
+    -->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+            <title>Explore Page</title>
+            <link rel="stylesheet" href="/static/css/style.css" />
+        </head>
+
+        <body>
+            <a href="/user_blog" name="userblog" value="userblog"><button>Return to Blog</button></a>
+            <a href="/logout" name="logout" value="Logout"><button>Logout</button></a>
+
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <h1><u>Explore Other Users' Fantastic Blogs</u></h1>
+    
+            <br>
+            
+            <h2>Instructions:</h2>
+            <p>Type the EXACT username that you want to visit. Press Enter to submit. If it doesn't work, that user doesn't have any blog entries up yet.<p>
+            <form action="/explore" method="post">
+                <input type="text" name="user">
+            </form>
+        </body>
+    </html>
+    

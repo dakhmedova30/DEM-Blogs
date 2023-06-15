@@ -1,0 +1,218 @@
+DEM PUMPKINS
+Diana Akhmedova
+Emily Ortiz
+May Qiu
+pd 7
+---------------------
+DEM BLOGS
+A website that allows users to register and post blogs with multiple entries, as well as view the blogs of other users.
+
+ ______   ______   __   __   __       ______   _______     
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\    
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__  
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\ 
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/ 
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \ 
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/ 
+==============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+design_wiki0.pdf feedback (reviewed in class 2022-10-28)
+reviewed by: Spooky Ghosts
+- how do you know target ship date?
+- when a change is made, is a new version of the HTML file made?
+- how would you know exactly where the edit was made?
+
+emilyO -- 2022-11-01
+--------------------------------------------------------------
+created repo, README.md
+==============================================================
+
+dianaA -- 2022-11-01
+--------------------------------------------------------------
+created .gitignore, devlog.txt, requirements.txt
+update README.md
+==============================================================
+
+design_wiki1.pdf feedback (reviewed in class 2022-11-2)
+reviewed by: POPEYES
+- show the relationships between files
+- easily understandable site map
+- how are you storing entries?
+- what is the process for editing entries?
+- are you making a new html file for each entry? myb use templates
+- the app doesn't need to constantly run bc data is always stored in the database
+- new entries will be stored in database
+reviewed by: WeLoveTrees
+- multiple python files should be used
+- look into if you can add a table within a table so you don't need a table for each article
+- put images in the static folder
+
+emilyO -- 2022-11-02
+--------------------------------------------------------------
+added design_wiki.pdf (2022-11-10: now named design_wiki0.pdf)
+updated devlog
+added flag.jpg
+==============================================================
+
+dianaA -- 2022-11-02
+--------------------------------------------------------------
+update README.md
+created app and __init__.py
+==============================================================
+
+dianaA -- 2022-11-03
+--------------------------------------------------------------
+update devlog
+==============================================================
+
+emilyO -- 2022-11-03
+--------------------------------------------------------------
+added design.pdf (2022-11-10: now named design2.pdf)
+changes to design.pdf:
+- updated site map
+- added more html files
+- clarified how entries would be created/edited
+- reassigned tasks
+update devlog
+==============================================================
+
+emilyO -- 2022-11-07 13:11
+--------------------------------------------------------------
+reformatted devlog
+==============================================================
+
+emilyO -- 2022-11-09 13:59
+--------------------------------------------------------------
+added code to __init.py
+created templates folder with login.html and response.html
+==============================================================
+
+mayQ -- 2022-11-10 00:45
+--------------------------------------------------------------
+edited __init__.py
+launched flask app
+edited README.md, requirements.txt
+==============================================================
+
+dianaA -- 2022-11-10 00:45
+--------------------------------------------------------------
+edited create_account.html, __init__.py
+edited README.md, requirements.txt
+==============================================================
+
+emilyO -- 2022-11-10 00:45
+--------------------------------------------------------------
+edited blog_template.html, create_entry.html, edit_entry.html, Elmo.html
+updated devlog
+==============================================================
+
+mayQ -- 2022-11-10 13:20
+--------------------------------------------------------------
+edited explore.html
+fixed bug w/ create_entry.html and edit_entry.html
+==============================================================
+
+dianaA -- 2022-11-10 13:20
+--------------------------------------------------------------
+worked on database.py
+==============================================================
+
+emilyO -- 2022-11-10 13:20
+--------------------------------------------------------------
+fixed bug w/ create_entry.html and edit_entry.html
+==============================================================
+
+emilyO -- 2022-11-10 21:45
+--------------------------------------------------------------
+added design_wiki1.pdf
+fixed design doc names
+updated devlog
+==============================================================
+
+emilyO -- 2022-11-10 22:15
+--------------------------------------------------------------
+added latest design doc (v3)
+- new flowchart
+- database.py
+- changes to logins table in db
+added design doc feedback to devlog
+==============================================================
+
+dianaA -- 2022-11-11 00:05
+--------------------------------------------------------------
+edit latest design doc (v3)
+- new flowchart
+made create_account function that only allows the creation of 
+accounts with a unique username
+edited login function to allow for made accounts to login with
+correct username and password
+added to devlog
+==============================================================
+
+mayQ -- 2022-11-11 00:05
+--------------------------------------------------------------
+edit latest design doc (v3)
+- new flowchart
+made create_account function that only allows the creation of 
+accounts with a unique username
+edited login function to allow for made accounts to login with
+correct username and password
+added to devlog
+==============================================================
+
+dianaA -- 2022-11-12 01:10
+--------------------------------------------------------------
+attempted to fix create_entry, still need to test
+figured out how to create new html files in python
+added to devlog
+==============================================================
+
+mayQ -- 2022-11-12 01:10
+--------------------------------------------------------------
+attempted to fix create_entry, still need to test
+figured out how to create new html files in python
+added to devlog
+==============================================================
+
+dianaA -- 2022-11-12 14:55
+--------------------------------------------------------------
+fixed writing to the html file
+worked on create_entry, only works with one entry right now
+added to devlog
+==============================================================
+
+mayQ -- 2022-11-13 23:03
+--------------------------------------------------------------
+got edit_entry working, but it is hardcorded to only mqiu30@stuy.edu atm
+got create_entry working
+All worked together
+added to devlog
+==============================================================
+
+mayQ -- 2022-11-15 03:10
+--------------------------------------------------------------
+all working together
+got all functions working
+- edit entry doesn't work in firefox for some reason
+updated design doc
+cried
+==============================================================
+
+emilyO -- 2022-11-15 03:10
+--------------------------------------------------------------
+all working together
+got all functions working
+- edit entry doesn't work in firefox for some reason
+updated design doc
+cried
+==============================================================
+
+dianaA -- 2022-11-15 03:10
+--------------------------------------------------------------
+all working together
+got all functions working
+- edit entry doesn't work in firefox for some reason
+updated design doc
+cried
+==============================================================
